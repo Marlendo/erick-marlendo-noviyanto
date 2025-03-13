@@ -37,7 +37,7 @@ function Screen() {
   }, [menu]);
 
   return (
-    <div className="w-screen h-screen max-w-[1500px] bg-emerald-50 overflow-auto m-auto">
+    <div className="w-screen h-screen max-w-[1500px] bg-gray-50 overflow-auto m-auto">
       <Suspense fallback={<div />}>
         <MenuComponent {...props} />
       </Suspense>

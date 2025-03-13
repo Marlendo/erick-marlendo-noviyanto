@@ -32,8 +32,8 @@ function MenuList({ menu, setMenu }: IMenuComponentProps) {
     >
       <p
         className={`${
-          menu === item ? "text-emerald-900 font-bold" : "text-gray-700"
-        } text-xs text-center`}
+          menu === item ? "text-emerald-900 text-sm" : "text-gray-700 text-xs"
+        } text-center font-bold`}
       >
         {item}
       </p>

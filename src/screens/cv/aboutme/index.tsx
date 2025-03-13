@@ -5,13 +5,13 @@ import { skillService } from "#/services/skill";
 function AboutMe() {
   const skill = skillService();
   return (
-    <div>
+    <div className=" min-h-[100vh]">
       <Title title="About me" subtitle="01" />
       <div className="my-[20px]">
-        <h1 className="text-xl font-titillium">
+        <h1 className="text-3xl font-titillium">
           Hello! I’m <strong>Erick Marlendo Noviyanto</strong>,
         </h1>
-        <h2 className="inline-block font-titillium text-xl ">
+        <h2 className="inline-block font-titillium text-2xl my-2">
           a passionate Fullstack
           <strong className="bg-gray-900 text-white px-[10px] pb-[2px] ml-[5px]">
             Javascrypt & Typescrypt Specialis

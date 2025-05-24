@@ -5,11 +5,13 @@ import { lazy, Suspense, useEffect, useRef, useState } from "react";
 const MenuComponent = lazy(() => import("#/screens/cv/menu"));
 const AboutMeComponent = lazy(() => import("#/screens/cv/aboutme"));
 const MyServiceComponent = lazy(() => import("#/screens/cv/myService"));
+const PortfolioComponent = lazy(() => import("#/screens/cv/portfolio"));
 
 function Screen() {
   const { WIDTH } = useWindowSize();
   const section1 = useRef<any>(null);
   const section2 = useRef<any>(null);
+  const section3 = useRef<any>(null);
 
   const [menu, setMenu] = useState<IMenu>("ABOUT ME");
 
@@ -26,6 +28,9 @@ function Screen() {
         break;
       case "SERVICES":
         section2.current.scrollIntoView({ behavior: "smooth" });
+        break;
+      case "PORTFOLIO":
+        section3.current.scrollIntoView({ behavior: "smooth" });
         break;
       default:
         break;
@@ -49,6 +54,11 @@ function Screen() {
       <div ref={section2} className="p-[50px] ml-[250px]">
         <Suspense fallback={<div />}>
           <MyServiceComponent />
+        </Suspense>
+      </div>
+      <div ref={section3} className="p-[50px] ml-[250px]">
+        <Suspense fallback={<div />}>
+          <PortfolioComponent />
         </Suspense>
       </div>
     </div>

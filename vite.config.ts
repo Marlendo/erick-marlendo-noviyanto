@@ -3,6 +3,9 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig({
+  define: {
+    global: 'window',
+  },
   plugins: [react()],
   server: {
     host: "0.0.0.0",
@@ -11,7 +14,6 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      // @ts-expect-error: Unreachable code error
       "#": path.resolve(__dirname, "src"),
     },
   },

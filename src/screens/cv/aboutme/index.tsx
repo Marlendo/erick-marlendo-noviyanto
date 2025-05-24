@@ -14,7 +14,7 @@ function AboutMe() {
         <h2 className="inline-block font-titillium text-2xl my-2">
           a passionate Fullstack
           <strong className="bg-gray-900 text-white px-[10px] pb-[2px] ml-[5px]">
-            Javascrypt & Typescrypt Specialis
+            Javascript & Typescript Specialis
           </strong>
         </h2>
       </div>

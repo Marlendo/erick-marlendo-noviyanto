@@ -44,9 +44,9 @@ function MenuList({ menu, setMenu }: IMenuComponentProps) {
 export function MenuComponent(props: IMenuComponentProps) {
   return (
     <div
-      className="fixed flex flex-col justify-start items-center w-[150px] h-screen bg-emerald-900 shadow-[0px_0px_10px_1px_rgba(0,0,0,0.8)]"
+      className="fixed flex flex-col justify-start items-center w-[200px] h-screen bg-emerald-900 shadow-[0px_0px_10px_1px_rgba(0,0,0,0.8)]"
       style={{
-        left: props.WIDTH < 1500 ? "100px" : props.WIDTH / 2 - 650,
+        left: props.WIDTH < 1500 ? "50px" : props.WIDTH / 2 - 700,
       }}
     >
       <img

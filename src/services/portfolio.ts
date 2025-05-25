@@ -1,5 +1,5 @@
 export interface IPortfilioList {
-  type: 'mobile' | 'web';
+  type: 'mobile apps' | 'web apps';
   title: string;
   desc: string;
   image: string;
@@ -14,7 +14,7 @@ export function portfolioService() {
 The app was initially built for voucher injection, and is now being progressively enhanced to assist and streamline the daily operations of Indosat’s partner outlets.
 
 I was responsible as the mobile developer, handling the implementation of core features, cross-platform optimization, and ongoing improvements to ensure a smooth user experience.`,
-      image: "/public/pf_mobile_mobo.png"
+      image: "/pf_mobile_mobo.png"
     },
     {
       type: 'mobile apps',
@@ -24,7 +24,7 @@ I was responsible as the mobile developer, handling the implementation of core f
 The app includes real-time charting for live asset tracking, real-time chat for group discussions, and social investing features that allow users to create or join investment groups. These features aim to make investing more interactive, social, and accessible.
 
 I was responsible as the mobile developer, handling the implementation of real-time features (chart and chat), state management, and optimizing the app for cross-platform performance and user engagement.`,
-      image: "/public/pf_mobile_seeds.png"
+      image: "/pf_mobile_seeds.png"
     },
     {
       type: 'mobile apps',
@@ -34,7 +34,7 @@ I was responsible as the mobile developer, handling the implementation of real-t
 Weplay also features real-time chat, allowing users to communicate instantly, schedule matches, or coordinate with new teammates. Whether you're into futsal, badminton, or basketball, the app connects you with people who share the same sports interests in your area.
 
 I was responsible as the mobile developer, focusing on the implementation of booking features, real-time chat integration, and optimizing cross-platform performance to deliver a seamless user experience.`,
-      image: "/public/pf_mobile_weplay_v1.png"
+      image: "/pf_mobile_weplay_v1.png"
     }, 
     {
       type: 'mobile apps',
@@ -44,7 +44,7 @@ I was responsible as the mobile developer, focusing on the implementation of boo
 The app serves as a platform for buying and selling various products, helping local businesses and individuals reach more customers through mobile commerce. It includes essential marketplace features such as product listings, search and filter, order management, and user accounts.
 
 I was responsible as the mobile developer, handling the development of core marketplace functionalities, UI components, and ensuring cross-platform compatibility for optimal performance on both Android and iOS.`,
-      image: "/public/pf_mobile_untung.png"
+      image: "/pf_mobile_untung.png"
     },
     {
       type: 'mobile apps',
@@ -54,7 +54,7 @@ I was responsible as the mobile developer, handling the development of core mark
 With features like service scheduling, location-based booking, and real-time updates, Cantik Homeservices aims to bring convenience, comfort, and a premium experience to users who prefer self-care at home.
 
 I was responsible as the mobile developer, implementing the booking system, managing state and user flows, and ensuring smooth performance across platforms with an intuitive and user-friendly interface.`,
-      image: "/public/pf_mobile_salon.png"
+      image: "/pf_mobile_salon.png"
     },
     {
       type: 'mobile apps',
@@ -64,7 +64,7 @@ I was responsible as the mobile developer, implementing the booking system, mana
 This version focuses heavily on better user experience, introducing a cleaner layout, smoother animations, and enhanced performance to make the app feel faster and more intuitive. Weplay v2 makes social sports planning easier and more enjoyable than ever.
 
 I was responsible as the mobile developer, handling the full UI/UX revamp, optimizing performance, and improving the integration of real-time features such as chat and booking updates.`,
-      image: "/public/pf_mobile_weplay_v2.png"
+      image: "/pf_mobile_weplay_v2.png"
     },
     {
       type: 'web apps',
@@ -72,7 +72,7 @@ I was responsible as the mobile developer, handling the full UI/UX revamp, optim
       desc: `Woowa is a web application built using React.js for the frontend and Node.js for the backend. It serves as an unofficial WhatsApp admin dashboard that helps users manage and automate their WhatsApp accounts. The platform enables sending broadcast messages, managing multiple WhatsApp sessions, creating an open API for programmatic message sending, and authenticating accounts via QR code scanning. It also supports webhook integration for real-time event handling and provides an intuitive interface similar to WhatsApp Web for contact and message management.
 
 I was responsible as a fullstack developer, handling the implementation of frontend components, backend API logic, WhatsApp service integration, QR authentication, and real-time webhook processing to ensure a seamless and efficient user experience.`,
-      image: "/public/pf_web_woowa.png"
+      image: "/pf_web_woowa.png"
     },
     {
       type: 'web apps',
@@ -80,7 +80,7 @@ I was responsible as a fullstack developer, handling the implementation of front
       desc: `Sinbad Admin Seller Center is a web dashboard application designed for managing all products and related data from Sinbad’s partner suppliers, including discounts, stores, warehouses, and products. The platform helps streamline the maintenance and administration process for sellers.
 
 I was responsible for developing new features for the Sinbad Seller Center using both React and Angular, focusing on enhancing functionality, improving user workflows, and ensuring smooth integration across the system.`,
-      image: "/public/pf_web_sinbad.png"
+      image: "/pf_web_sinbad.png"
     },
     {
       type: 'web apps',
@@ -90,7 +90,7 @@ I was responsible for developing new features for the Sinbad Seller Center using
 This system helps streamline data entry and document management within BCA, improving accuracy and operational efficiency.
 
 I was responsible as a fullstack developer, implementing the frontend interfaces with React.js and developing backend OCR processing services with Spring Boot, ensuring seamless integration and reliable performance.`,
-      image: "/public/pf_web_mobo.png"
+      image: "/pf_web_emoji.png"
     },
     {
       type: 'web apps',
@@ -98,7 +98,7 @@ I was responsible as a fullstack developer, implementing the frontend interfaces
       desc: `This website serves as an introduction and promotional platform for Cantik Homeservices, showcasing the app’s features and services. Built using HTML, CSS, and JavaScript, the site provides a clean and responsive design that highlights on-demand salon and massage services available through the mobile app.
 
 I was responsible for developing the website’s frontend, focusing on user-friendly navigation, visual presentation, and ensuring compatibility across different browsers and devices.`,
-      image: "/public/pf_web_mobo.png"
+      image: "/pf_web_salon.png"
     },
     {
       type: 'web apps',
@@ -106,7 +106,7 @@ I was responsible for developing the website’s frontend, focusing on user-frie
       desc: `UCC Web Apps is a universal campus consortium system designed to unify various campus systems worldwide. Built using Next.js, the platform aims to integrate and standardize administrative, academic, and communication tools across multiple universities, creating a seamless experience for students, staff, and faculty.
 
 I was responsible for contributing to the development and maintenance of the web application, focusing on feature implementation, system integration, and ensuring scalability to support a global network of campuses.`,
-      image: "/public/pf_web_mobo.png"
+      image: "/pf_web_ucc.png"
     }
   ]
 }

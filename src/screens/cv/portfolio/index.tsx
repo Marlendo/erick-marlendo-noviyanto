@@ -6,13 +6,20 @@ function Portfolio() {
   const images: any = portfolioService();
   const [state, setState] = useState<IPortfilioList[]>(images);
 
-  function filterImages(type: string) {
-    console.log({ type, state });
+  function filterImages(type: 'Show All' | 'Mobile Apps' | 'Web Apps') {
+    if (type === 'Mobile Apps') {
+      const filteredImages = [];
+    }
+    setState(images);
   }
+
+  useEffect(() => {
+    console.log(state)
+  }, [state])
 
   return (
     <div className=" min-h-[100vh]">
-      <Title title="Portfolio" subtitle="03" tabs={['Show All', 'Mobile Apps', 'Web Apps']} tabsOnChange={(value: string) => {
+      <Title title="Portfolio" subtitle="03" tabs={['Show All', 'Mobile Apps', 'Web Apps']} tabsOnChange={(value: any) => {
         filterImages(value);
       }} />
       <div>
